@@ -43,7 +43,7 @@ dollar=50
 GROUP_ID = ['-4241648367']
 token = '7023126942:AAF8CfxIt-ToXwsNUSMqHmH77Adnc7hVyBs'
 bot=telebot.TeleBot(token,parse_mode="HTML")
-subscriber = 843841687
+subscriber = 843841687,1776567227
 
 @bot.message_handler(commands=["start"])
 def start(message):
